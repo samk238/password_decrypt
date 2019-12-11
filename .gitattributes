@@ -1,0 +1,11 @@
+# Do not autoconvert line endings for these test files, they are not supposed
+# to be native to your platform.
+spec/fixtures/*.md  -text
+* -crlf
+
+* text eol=lf
+*.propertiestext eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
